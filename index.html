@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حمایت مالی | Arash</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-color: #3b82f6;
+            --accent-hover: #2563eb;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 480px;
+            text-align: center;
+        }
+
+        .profile {
+            margin-bottom: 32px;
+        }
+
+        .profile img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 16px;
+            display: block;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+            border: 3px solid var(--accent-color);
+        }
+
+        .profile h1 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        .profile p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-card {
+            background-color: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 18px 24px;
+            border-radius: 16px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            transition: all 0.25s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--accent-color);
+            box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.2);
+        }
+
+        .link-info {
+            text-align: right;
+        }
+
+        .link-title {
+            font-size: 1.05rem;
+            margin-bottom: 4px;
+        }
+
+        .link-desc {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
+        .link-icon {
+            font-size: 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 8px;
+            border-radius: 12px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer {
+            margin-top: 48px;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- بخش پروفایل بالای صفحه -->
+        <div class="profile">
+            <!-- تصویر آرش -->
+            <img src="photo_2026-07-01_19-12-34.jpg" alt="Arash">
+            <h1>Arash</h1>
+            <p>اگر دوست دارید از من و فعالیت‌هایم حمایت کنید، می‌توانید از طریق لینک‌های زیر اقدام کنید.</p>
+        </div>
+
+        <!-- دکمه‌های لینک دونیت -->
+        <div class="links-container">
+            
+            <!-- لینک ریمیت -->
+            <a href="https://reymit.com/game__baz" target="_blank" class="link-card">
+                <div class="link-info">
+                    <div class="link-title">حمایت ریالی ، ارزی و کریپتو ( ریمیت)</div>
+                    <div class="link-desc">پرداخت آنلاین و سریع با کارت‌های شتاب از طریق درگاه Reymit</div>
+                </div>
+                <div class="link-icon">💳</div>
+            </a>
+
+            <!-- لینک پی‌پال -->
+            <a href="https://streamelements.com/game__baz/tip" target="_blank" class="link-card">
+                <div class="link-info">
+                    <div class="link-title">حمایت ارزی (PayPal)</div>
+                    <div class="link-desc">حمایت بین‌المللی از طریق درگاه PayPal</div>
+                </div>
+                <div class="link-icon">🌐</div>
+            </a>
+
+        </div>
+
+        <!-- متن پایین صفحه -->
+        <div class="footer">
+            <p>❤️ دمتون گرم که از من حمایت میکنید</p>
+        </div>
+    </div>
+
+</body>
+</html>
